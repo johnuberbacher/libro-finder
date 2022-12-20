@@ -22,11 +22,10 @@
         </div>
         <div class="lg:col-span-3">
           <div class="font-semibold dark:text-white">Reader Discussions</div>
-
           <div class="flex flex-row mt-5">
             <img
               class="inline-block h-10 w-10 rounded-full ring-2 ring-white mt-[2px] ml-[2px] mr-5"
-              src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+              src="https://avatars.githubusercontent.com/u/5966499?v=4"
               alt=""
             />
             <div
@@ -52,7 +51,7 @@
           <div class="flex flex-row mt-5">
             <img
               class="inline-block h-10 w-10 rounded-full ring-2 ring-white mt-[2px] ml-[2px] mr-5"
-              src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+              src="https://avatars.githubusercontent.com/u/5966499?v=4"
               alt=""
             />
             <div
