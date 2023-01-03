@@ -79,3 +79,12 @@
     </div>
   </div>
 </template>
+<script setup>
+import { useHomeTabStore } from "@/stores/homeTabs";
+const homeTabStore = useHomeTabStore();
+const route = useRoute()
+
+onMounted(async () => {
+  await homeTabStore.getWorkDetails(route.params.id);
+});
+</script>

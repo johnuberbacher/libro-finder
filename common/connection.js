@@ -16,9 +16,22 @@ export default {
     }
   },
   async getWorksByGenre(genre) {
-    console.log(genre);
     const response = await fetch(
       APISettings.baseURL + "/subjects/" + genre + ".json?details=true&limit=20",
+      {
+        method: "GET",
+        headers: APISettings.headers,
+      }
+    );
+    if (response.status != 200) {
+      throw response.status;
+    } else {
+      return response.json();
+    }
+  },
+  async getWorkDetails(workID) {
+    const response = await fetch(
+      APISettings.baseURL + "/works/" + workID + ".json",
       {
         method: "GET",
         headers: APISettings.headers,

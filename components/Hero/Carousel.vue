@@ -7,7 +7,7 @@
       <div class="flex flex-row align-end">
         <div
           :style="{ 'background-image': 'url(' + props.bookImageUrl + ')' }"
-          class="bg-cover bg-center w-[180px] max-w-[180px] min-w-[180px] h-[270px] max-h-[270px] rounded-sm cursor-pointer -mb-10 shadow-md hover:shadow-lg transform transition duration-250 hover:scale-[1.05]"
+          class="bg-cover bg-center w-[180px] max-w-[180px] min-w-[180px] h-[270px] max-h-[270px] rounded-md cursor-pointer -mb-10 shadow-md hover:shadow-lg transform transition duration-250 hover:scale-[1.05]"
         ></div>
         <div
           class="h-[190px] min-h-[190px] ml-5 text-ellipsis overflow-hidden text-clip"
